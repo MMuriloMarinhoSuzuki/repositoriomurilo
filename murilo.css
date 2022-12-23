@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../murilo/imag/fundo.jpg);
+    margin: 0;
+    
+}
+
+
+
+.estrela {
+    background-color: #73485c;
+    width: auto;
+    height: 90px;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+}
+
+
+.lua {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+#unv1 {
+    text-align: center;
+}
+
+
+.universo {
+    background-color: aliceblue;
+    margin: auto;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+
+.image {
+    width: auto;
+    margin: 40px auto auto 450px ;
+
+} 
+
+
+
+.link1 {
+    background-color: aliceblue;
+    width: 640px;
+    height: 150px;
+    text-align: center;
+    margin: 20px auto auto auto;
+    padding: 5px;
+    border-radius: 20px ;
+}
+
+
+@media  screen and (max-width: 600px) {
+    .estrela {
+    background-color: #73485c;
+    font-size: 10px;
+    text-align: center;
+    height: 60px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .lua {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .universo {
+        width: 350px;
+        height: 170px;
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .link1 {
+        width: 350px;
+        height: 170px;
+        font-size:15px;
+    }
+}
